@@ -1,4 +1,4 @@
-import run from "https://deno.land/x/citrinescript_base@v1.1.2.0-alpha/main.ts";
+import run from "https://deno.land/x/citrinescript_base@v1.2.0.1/main.ts";
 
 const args = Deno.args
 
