@@ -1,4 +1,4 @@
-import run from "https://deno.land/x/citrinescript_base@v1.2.0.3/main.ts";
+import * as ces from "https://deno.land/x/citrinescript_base@v1.3.0.0/main.ts";
 
 const args = Deno.args
 
@@ -13,7 +13,13 @@ if (args.length === 0) {
       if (args[1] === undefined) {
         throw `Expected file to run!`
       }
-      run(args[1]);
+      ces.run(args[1]);
+      break;
+    case "repl":
+      if (args[1] !== undefined) {
+        throw `Expected no args for repl command!`
+      }
+      ces.repl();
       break;
     default:
       console.log(`Unknown command: ${command}`);
