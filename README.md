@@ -8,7 +8,7 @@ To get Citrin, you need [Deno](https://deno.land/).
 
 ## Installation
 
-To install Citrin, you need to run ``deno install -A -f -n citrin https://deno.land/x/citrin@v1.2.0.0/main.ts``
+To install Citrin, you need to run ``deno install -A -f -n citrin https://deno.land/x/citrin@v1.2.1.0/main.ts``
 
 This is the latest release.
 
