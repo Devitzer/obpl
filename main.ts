@@ -1,4 +1,13 @@
 import * as ces from "https://deno.land/x/citrinescript_base@v1.3.1.1/main.ts";
+import fetchLatestVersion from "./VersionCheck.ts";
+const version = "v1.3.0.0";
+
+const latest = await fetchLatestVersion();
+
+
+if (version !== latest) {
+  console.log(version, " => " + latest + ", There is a new version of citrin, please download it!");
+}
 
 const args = Deno.args
 
