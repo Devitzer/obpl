@@ -1,6 +1,6 @@
-import * as ces from "https://deno.land/x/citrinescript_base@v1.3.1.1/main.ts";
+import * as ces from "https://deno.land/x/citrinescript_base@v2.0.0.0/main.ts";
 import fetchLatestVersion from "./VersionCheck.ts";
-const version = "v1.3.0.1";
+const version = "v1.4.0.0";
 
 const latest = await fetchLatestVersion();
 
