@@ -1,7 +1,3 @@
-# DEPRECATION WARNING:
-
-This CLI is being deprecated on Citrin base.
-
 # Obsidian Programming Language Runtime CLI!
 
 OBPL is the Obsidian runtime CLI bundled with Obsidian and the CLI. If you want to run .ob files. This CLI is for you.
