@@ -1,14 +1,18 @@
-# CitrineScript Runtime CLI!
+# DEPRECATION WARNING:
 
-Citrin is the CitrineScript runtime CLI bundled with CitrineScript and the CLI. If you want to run .ces files. This CLI is for you.
+This CLI is being deprecated on Citrin base.
+
+# Obsidian Programming Language Runtime CLI!
+
+OBPL is the Obsidian runtime CLI bundled with Obsidian and the CLI. If you want to run .ob files. This CLI is for you.
 
 ## Prerequisites
 
-To get Citrin, you need [Deno](https://deno.land/).
+To get OBPL, you need [Deno](https://deno.land/).
 
 ## Installation
 
-To install Citrin, you need to run ``deno install -A -f -n citrin https://deno.land/x/citrin@v1.4.0.0/main.ts``
+To install OBPL, you need to run ``deno install -A -f -n citrin https://deno.land/x/obpl@v1.5.0.0/main.ts``
 
 This is the latest release.
 
