@@ -8,10 +8,10 @@ To get OBPL, you need [Deno](https://deno.land/).
 
 ## Installation
 
-To install OBPL, you need to run ``deno install -A -f -n citrin https://deno.land/x/obpl@v1.5.0.0/main.ts``
+To install OBPL, you need to run ``deno install -A -f -n obpl https://deno.land/x/obpl@v1.5.0.0/main.ts``
 
 This is the latest release.
 
 ## Enjoy!
 
-To learn more about CitrineScript, go **[here](https://citrine.geodax.ca/)**
+To learn more about Obsidian, go **[here](https://citrine.geodax.ca/)**
