@@ -1,6 +1,6 @@
-import * as ob from "https://deno.land/x/obsidianlang@v2.1.0.1/main.ts";
+import * as ob from "https://deno.land/x/obsidianlang@v2.1.0.2/main.ts";
 import fetchLatestVersion from "./VersionCheck.ts";
-const version = "v1.5.0.0";
+const version = "v1.5.0.1";
 
 const latest = await fetchLatestVersion();
 
