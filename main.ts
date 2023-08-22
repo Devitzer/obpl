@@ -1,6 +1,7 @@
-import * as ob from "https://deno.land/x/obsidianlang@v2.1.0.2/main.ts";
+import * as ob from "https://deno.land/x/obsidianlang@v2.2.0.0/main.ts";
+import * as obd from "https://deno.land/x/obsidianlang@v2.2.0.0/DetailProcess.ts";
 import fetchLatestVersion from "./VersionCheck.ts";
-const version = "v1.5.0.1";
+const version = "v1.6.0.0";
 
 const latest = await fetchLatestVersion();
 
@@ -30,6 +31,13 @@ if (args.length === 0) {
       }
       ob.repl();
       break;
+    case "detail":
+      if (args[1] === undefined) {
+        throw `Expected file to detail!`;
+      }
+      obd.run(args[1]);
+      break;
+      
     default:
       console.log(`Unknown command: ${command}`);
   }
