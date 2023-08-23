@@ -1,7 +1,7 @@
-import * as ob from "https://deno.land/x/obsidianlang@v2.2.0.0/main.ts";
-import * as obd from "https://deno.land/x/obsidianlang@v2.2.0.0/DetailProcess.ts";
+import * as ob from "https://deno.land/x/obsidianlang@v2.3.0.0/main.ts";
+import * as obd from "https://deno.land/x/obsidianlang@v2.3.0.0/DetailProcess.ts";
 import fetchLatestVersion from "./VersionCheck.ts";
-const version = "v1.6.0.0";
+const version = "v1.6.1.0";
 
 const latest = await fetchLatestVersion();
 
