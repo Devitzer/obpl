@@ -1,13 +1,14 @@
-import * as ob from "https://deno.land/x/obsidianlang@v2.3.0.0/main.ts";
-import * as obd from "https://deno.land/x/obsidianlang@v2.3.0.0/DetailProcess.ts";
+import * as ob from "https://deno.land/x/obsidianlang@v2.3.0.1/main.ts";
+import * as obd from "https://deno.land/x/obsidianlang@v2.3.0.1/DetailProcess.ts";
+import chalkin from "https://deno.land/x/chalkin@v0.1.3/mod.ts";
 import fetchLatestVersion from "./VersionCheck.ts";
-const version = "v1.6.1.0";
+const version = "v1.7.0.0";
 
 const latest = await fetchLatestVersion();
 
 
 if (version !== latest) {
-  console.log(version, " => " + latest + ", There is a new version of OBPL, please download it!");
+  console.log(chalkin.red(version), " => " + chalkin.green(latest) + ", There is a new version of OBPL, please download it!");
 }
 
 const args = Deno.args

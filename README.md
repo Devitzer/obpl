@@ -8,7 +8,7 @@ To get OBPL, you need [Deno](https://deno.land/).
 
 ## Installation
 
-To install OBPL, you need to run ``deno install -A -f -n obpl https://deno.land/x/obpl@v1.6.1.0/main.ts``
+To install OBPL, you need to run ``deno install -A -f -n obpl https://deno.land/x/obpl@v1.7.0.0/main.ts``
 
 This is the latest release.
 
